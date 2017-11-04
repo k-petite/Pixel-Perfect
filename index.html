@@ -3,7 +3,11 @@
 <title>Golden</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|PT+Serif:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 <body>
   <header>
     <nav class="navigation">
@@ -16,33 +20,41 @@
         <a>CONTACT</a>
       </div>
     </nav>
-    <h2>Welcome To Our Studio!</h2>
-    <h1>IT'S NICE TO MEET YOU</h1>
-    <a>TELL ME MORE</a>
+    <div class='welcome'>
+      <h2>Welcome To Our Studio!</h2>
+      <h1>IT'S NICE TO MEET YOU</h1>
+      <a>TELL ME MORE</a>
+    </div>
   </header>
   <main>
-    <div class='services'>
+    <div class='services container'>
       <h3>SERVICES</h3>
       <h4>Proin iaculis purus consequat sem cure</h4>
       <div class='servicesList'>
         <div>
-          <img src='images/icon-basket.png' alt='Shoppong bin icon'>
+          <div>
+            <img src='images/icon-basket.png' alt='Shoppong bin icon' id='basket-logo'>
+          </div>
           <h5>E-Commerce</h5>
           <h6>Proin iaculis purus consequat sem cure digni ssim. Donec porttitore entum suscipit aenean rhoncus posuere odio in tincidunt.</h6>
         </div>
         <div>
-          <img src='images/icon-laptop.png' alt='Laptop icon'>
+          <div>
+            <img src='images/icon-laptop.png' alt='Laptop icon' id='laptop-logo'>
+          </div>
           <h5>Responsive Web</h5>
           <h6>Proin iaculis purus consequat sem cure digni ssim. Donec porttitore entum suscipit aenean rhoncus posuere odio in tincidunt.</h6>
         </div>
         <div>
-          <img src='images/icon-locked.png' alt='Lock icon'>
+          <div>
+            <img src='images/icon-locked.png' alt='Lock icon' id='lock-logo'>
+          </div>
           <h5>Web Security</h5>
           <h6>Proin iaculis purus consequat sem cure digni ssim. Donec porttitore entum suscipit aenean rhoncus posuere odio in tincidunt.</h6>
         </div>
       </div>
     </div>
-    <div class='portfolio'>
+    <div class='portfolio container'>
       <h3>OUR PORTFOLIO</h3>
       <h4>Proin iaculis purus consequat sem cure</h4>
       <div>
@@ -78,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div class='about'>
+    <div class='about container'>
       <h3>ABOUT US</h3>
       <h4>Proin iaculis purus consequat sem cure</h4>
       <div>
@@ -119,7 +131,7 @@
         </div>
       </div>
     </div>
-    <div class='team'>
+    <div class='team container'>
       <h3>OUR AMAZING TEAM</h3>
       <h4>Proin iaculis purus consequat sem cure</h4>
       <div>
@@ -143,13 +155,13 @@
       </div>
       <h4>Proin iaculis purus consequat sem cure digni ssim. Donec porttitore entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.</h4>
     </div>
-    <div class='logos'>
+    <div class='logos container'>
       <img>
       <img>
       <img>
       <img>
     </div>
-    <div class='contacts'>
+    <div class='contacts container'>
       <h3>CONTACT US</h3>
       <h4>Proin iaculis purus consequat sem cure</h4>
       <form>

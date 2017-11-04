@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* =================================
+                Clearfix
+==================================== */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+.navigation {
+  margin: 2em 0;
+}
+
+.navigation,
+.navigation div {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+.navigation div * {
+  padding: 0.7em 0;
+}
+
+.navigation img {
+  max-width: 100%;
+  margin: .5em auto;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.welcome {
+  margin: 5em 0;
+}
+
+.welcome h2 {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.welcome a{
+  padding: 10px 20px;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 0;
+}
+
+h4, h6 {
+  font-family: 'PT Serif', serif;
+  font-family: 'Merriweather', serif;
+  font-size: .75em;
+  font-weight: 200;
+  margin: 1em 0;
+}
+
+h4 {
+  font-style: italic;
+}
+
+h6 {
+  font-size: .7em;
+  line-height: 1.7em;
+}
+
+.servicesList {
+  margin: 3em auto;
+  width: 80%;
+}
+
+.servicesList div{
+  margin: 3em 0;
+}
+
+.servicesList div div {
+  border-radius: 50%;
+  border: 2.5px solid #ffd137;
+  height: 58px;
+  width: 58px;
+  margin: 0 auto;
+}
+
+.servicesList img{
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+}
+
+#basket-logo {
+  padding: .67em;
+}
+
+#laptop-logo {
+  padding: .5em;
+}
+
+#lock-logo {
+  padding: .7em;
+}

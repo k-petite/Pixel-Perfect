@@ -98,22 +98,11 @@ h6 {
   height: 58px;
   width: 58px;
   margin: 0 auto;
+  /*position:relative;*/
 }
 
 .servicesList img{
+  margin: 0.7em auto;
   max-width: 100%;
-  max-height: 100%;
-  display: inline-block;
-}
-
-#basket-logo {
-  padding: .67em;
-}
-
-#laptop-logo {
-  padding: .5em;
-}
-
-#lock-logo {
-  padding: .7em;
+  height: 55%;
 }

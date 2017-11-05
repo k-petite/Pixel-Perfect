@@ -18,20 +18,33 @@
 .cf:after {
   clear: both; }
 
+.about,
+.team,
+.contacts {
+  padding: 2em;
+}
+
+header {
+  background: linear-gradient(to right,rgba(0,0,0,0.9), rgba(0,0,0,0.5), rgba(0,0,0,0.9)),
+  url("../images/container_11.png") repeat center, black;
+  color: white;
+  margin: 0;
+}
+
 .navigation {
   margin: 2em 0;
 }
 
 .navigation,
-.navigation div {
+.nav-links {
   display: flex;
   flex-direction: column;
   font-weight: bold;
   font-size: .9em;
 }
 
-.navigation div * {
-  padding: 0.7em 0;
+.nav-links * {
+  padding: 0.9em 0;
 }
 
 .navigation img {
@@ -41,11 +54,15 @@
 
 .container {
   width: 90%;
-  margin: 0 auto;
+  margin: 3em auto;
 }
 
 .welcome {
-  margin: 5em 0;
+  margin: 3em auto;
+}
+
+.welcome h1{
+  margin: 1em auto;
 }
 
 .welcome h2 {
@@ -58,6 +75,8 @@
   padding: 10px 20px;
   font-size: .9em;
   font-weight: bold;
+  background-color: #fed036;
+  border-radius: 4px;
 }
 
 h3 {
@@ -79,6 +98,12 @@ h4 {
   font-style: italic;
 }
 
+h4 {
+  font-style: italic;
+}
+
+
+
 h6 {
   font-size: .7em;
   line-height: 1.7em;
@@ -99,7 +124,6 @@ h6 {
   height: 58px;
   width: 58px;
   margin: 0 auto;
-  /*position:relative;*/
 }
 
 .servicesList img{
@@ -114,7 +138,7 @@ h6 {
   padding-bottom: 2em;
 }
 
-.portfolio div {
+.portfolio > div {
   margin: 3em auto;
   width: 100%;
 }
@@ -124,23 +148,27 @@ h6 {
   margin: 1em 0;
 }*/
 
-.portfolio div div {
+.portfolio > div > div {
   margin: 2em 0;
 }
 
-.portfolio div div div:not(img){
+.portfolio > div > div > div:not(img){
   background-color: #fefefe;
   padding: 0;
 }
 
-.portfolio div div div h5{
+.portfolio > div > div > div > h5{
   padding-top: 1.5em;
 }
 
-.portfolio div div div h4{
+.portfolio > div > div > div > h4{
   padding-bottom: 1.5em;
   font-family: 'PT Serif', serif;
   font-size: 0.8em;
+}
+
+.portfolio .container > div > div {
+  margin-bottom: 5em;
 }
 
 .portfolio img{
@@ -153,6 +181,154 @@ h6 {
   margin: 0;
 }
 
-.about {
-  padding: 2em;
+.about > div > div {
+  margin: 3em auto;
+}
+
+.about > div > div > div *{
+  margin: 0;
+}
+
+.about > div > div > div {
+  margin: 1em auto;
+}
+
+.about img{
+  border: 6px solid #f2f0f6;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  /*width: 60%;*/
+}
+
+.about > div > div > div > h5{
+  padding: .5em;
+}
+
+
+#story {
+  border: 6px solid #f2f0f6;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  vertical-align: middle;
+  background-color: #fed036;
+  margin: 0 auto;
+}
+
+#story h5{
+  max-width: 100%;
+  height: 50%;
+  margin: 2.3em;
+  line-height: 1.5em;
+  color: white;
+  text-shadow: -2px 2px 2px #febf21;
+  font-weight: 500;
+}
+
+.team {
+  background-color: #f7f7f7;
+}
+
+.black-circle {
+  background-color: black;
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+.team h4,
+.team h5 {
+  margin: 0 auto;
+}
+
+
+.team h5 {
+  padding-top: 20px;
+}
+
+.team .container > div {
+  margin: 2em 0;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+}
+
+.logos img {
+  max-width: 100%;
+  margin: 1em auto;
+}
+
+
+.contacts {
+  background: url("../images/map_image.png") repeat center, black;
+  color: white;
+  margin: 0 auto;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+form > div {
+  margin-bottom: 2em;
+}
+
+.contacts h4 {
+  margin: 0 auto 2em;
+}
+
+input, textarea {
+  margin: 1em auto;
+  width: 100%;
+  height: 3em;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  outline: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{
+  text-align:left;
+  font-style:normal;
+  font-size:0.75em;
+  font-weight:300;
+  padding-left:7px;
+  opacity:.9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+textarea{
+  height: 6.5em;
+  resize: none;
+}
+
+textarea::-webkit-input-placeholder{
+  padding-top: 5px;
+}
+
+button {
+  height: 3em;
+  width: 60%;
+  margin: 0 auto;
+  background-color: #fed036;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  font-size: .9em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer h4 {
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 300;
 }

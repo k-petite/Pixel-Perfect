@@ -44,7 +44,7 @@ header {
   url("../images/container_11.png") repeat center, black;
   color: white;
   margin: 0;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 
 .navigation {
@@ -78,13 +78,14 @@ header {
 }
 
 .welcome h1{
-  margin: 1em auto;
+  margin: .5em auto 1em;
 }
 
 .welcome h2 {
   font-family: 'PT Serif', serif;
   font-style: italic;
   font-weight: 400;
+  margin: .2em auto;
 }
 
 .welcome a{

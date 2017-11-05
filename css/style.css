@@ -431,29 +431,28 @@ footer h4 {
     margin-left: 1em;
   }
 
-  /*.about-list > div:not(.v-line):nth-child(odd) {
-    order: 1;
-    margin-left: 1em;
-  }*/
-  /*.about-list > div > div{
-    width: 15.5em;
-    order: -1;
-  }*/
+  .about-list > div:not(.v-line):nth-child(odd) {
+    justify-content: flex-end;
+  }
 
   .about > div > div {
     margin: 2em 0;
   }
 
   .about img {
-    margin: 0.1em .8em;
+    margin: 0 .8em;
   }
 
-  .about-list > div > div *{
+  .about-list > div:not(.v-line):nth-child(even) > div *{
     text-align: right;
   }
 
+  .about-list > div:not(.v-line):nth-child(odd) > div *{
+    text-align: left;
+  }
+
   .about > div > div > div{
-    margin: 1em;
+    margin: 0 1em;
   }
 
   .about-list {
@@ -462,7 +461,7 @@ footer h4 {
 
   .v-line{
     border-left: 2px solid #f2f0f6;
-    height: 80em;
+    height: 60em;
     position: absolute;
     left: 50%;
     /*margin-left: -3px;*/
@@ -471,10 +470,13 @@ footer h4 {
   }
 
   .about-list > div:not(.v-line){
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    justify-content: flex-start;
   }
+
   .about-list > div:not(.v-line) > div{
-    margin: 0 1em;
+    /*margin: 0 1em;*/
+    width: 35%;
   }
 
   .about-list > div:not(.v-line) > div > h5{
@@ -486,4 +488,20 @@ footer h4 {
     padding-bottom: 0;
   }
 
+  .about-list{
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .about-list h6 {
+    font-size: .65em;
+  }
+
+  #story {
+    margin: 2em auto;
+  }
+
+  #story h5{
+    width: 75px;
+  }
 }

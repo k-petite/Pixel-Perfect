@@ -360,3 +360,58 @@ footer h4 {
   color: black;
   font-weight: 300;
 }
+
+
+@media (min-width: 768px) {
+  header {
+    padding-top: .7em;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1em 15em;
+  }
+
+  .nav-links a{
+    padding: 5px 10px;
+  }
+
+  .welcome div *{
+    margin: 1em auto;
+  }
+
+  .servicesList {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .servicesList > div{
+    margin: 0;
+  }
+
+  .services .container > h4{
+    margin-top: 0;
+    margin-bottom: 2em;
+  }
+
+  #portfolio .container{
+    margin: 1em auto;
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-list > div {
+    margin: 10px;
+    max-width: 25%;
+  }
+
+
+
+}

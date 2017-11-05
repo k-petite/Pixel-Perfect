@@ -412,6 +412,78 @@ footer h4 {
     max-width: 25%;
   }
 
+  .about-list {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .about-list > div{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-list > div > div{
+    width: 15.5em;
+  }
+
+  .about-list > div:not(.v-line):nth-child(even) > div {
+    order: -1;
+    margin-left: 1em;
+  }
+
+  /*.about-list > div:not(.v-line):nth-child(odd) {
+    order: 1;
+    margin-left: 1em;
+  }*/
+  /*.about-list > div > div{
+    width: 15.5em;
+    order: -1;
+  }*/
+
+  .about > div > div {
+    margin: 2em 0;
+  }
+
+  .about img {
+    margin: 0.1em .8em;
+  }
+
+  .about-list > div > div *{
+    text-align: right;
+  }
+
+  .about > div > div > div{
+    margin: 1em;
+  }
+
+  .about-list {
+    position: relative;
+  }
+
+  .v-line{
+    border-left: 2px solid #f2f0f6;
+    height: 80em;
+    position: absolute;
+    left: 50%;
+    /*margin-left: -3px;*/
+    top: 0;
+    z-index: -1;
+  }
+
+  .about-list > div:not(.v-line){
+    border: 1px solid red;
+  }
+  .about-list > div:not(.v-line) > div{
+    margin: 0 1em;
+  }
+
+  .about-list > div:not(.v-line) > div > h5{
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  .about-list > div:not(.v-line) > div > h6{
+    padding-bottom: 0;
+  }
 
 }

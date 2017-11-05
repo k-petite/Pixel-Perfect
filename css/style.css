@@ -291,13 +291,13 @@ h6 {
   margin: 2em 0;
 }
 
-.black-circle i{
+i{
   width: 30px;
   height: 30px;
   padding: 4px;
-  border: 2px solid black;
+  border: 2px solid #222;
   border-radius: 50%;
-  color: black;
+  color: #222;
 }
 
 /*.black-circle img{
@@ -306,7 +306,7 @@ h6 {
   padding: 4px;
 }*/
 
-#g-plus {
+.g-plus {
   display: inline-block;
   text-indent: -9999px;
   /*margin-left: 5px;*/
@@ -315,17 +315,13 @@ h6 {
   background-size: 15px 15px;
   background-repeat: no-repeat;
   background-position: center;
-  /*opacity: .4;*/
   transition: all .5s;
   background-image: url("../images/google+.png");
-  border: 2px solid black;
+  border: 2px solid #222;
   border-radius: 50%;
   vertical-align: bottom;
-}
 
-/*a.social:hover {
-  opacity: 1;
-}*/
+}
 
 .logos {
   display: flex;
@@ -406,6 +402,20 @@ footer h4 {
   font-family: 'Montserrat', sans-serif;
   color: black;
   font-weight: 300;
+}
+
+footer > div{
+  margin-bottom: 2em;
+}
+
+footer .g-plus {
+  background-image: url("../images/google.png");
+  background-color: #222;
+}
+
+footer i {
+  color: white;
+  background-color: #222;
 }
 
 
@@ -563,13 +573,6 @@ footer h4 {
     font-size: .7em;
   }
 
-
-
-/*
-  .fa .fa-facebook-f {
-    font-size:50px;
-  }*/
-
   .logos {
     display: flex;
     justify-content: space-around;
@@ -588,4 +591,32 @@ footer h4 {
     vertical-align: bottom;
   }
 
+  form > div {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  form > div > div,
+  form > div > textarea,
+  input{
+    margin: 0 2em 1em;
+  }
+
+  form > div > textarea {
+    height: 11em;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+  }
+
+  footer > div{
+    flex-grow: 1;
+  }
+
+  footer > *{
+    width: 33%;
+  }
 }

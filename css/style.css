@@ -21,7 +21,8 @@
 .about,
 .team,
 .contacts {
-  padding: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 header {
@@ -111,7 +112,6 @@ h6 {
 
 .servicesList {
   margin: 3em auto;
-  width: 80%;
 }
 
 .servicesList div{

@@ -18,6 +18,7 @@
 .cf:after {
   clear: both; }
 
+.services,
 .about,
 .team,
 .contacts {
@@ -25,15 +26,29 @@
   padding-bottom: 2em;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fed036;
+}
+
+a:visited {
+  color: white;
+}
+
 header {
   background: linear-gradient(to right,rgba(0,0,0,0.9), rgba(0,0,0,0.5), rgba(0,0,0,0.9)),
   url("../images/container_11.png") repeat center, black;
   color: white;
   margin: 0;
+  padding-bottom: 3em;
 }
 
 .navigation {
-  margin: 2em 0;
+  margin: 1em 0;
 }
 
 .navigation,
@@ -49,17 +64,17 @@ header {
 }
 
 .navigation img {
-  max-width: 100%;
-  margin: .5em auto;
+  width: 70px;
+  margin: .2em auto .5em;
 }
 
 .container {
   width: 90%;
-  margin: 3em auto;
+  margin: 1.5em auto;
 }
 
 .welcome {
-  margin: 3em auto;
+  margin: 1em auto;
 }
 
 .welcome h1{
@@ -139,7 +154,7 @@ h6 {
 }
 
 .portfolio > div {
-  margin: 3em auto;
+  margin: 1em auto;
   width: 100%;
 }
 
@@ -168,7 +183,7 @@ h6 {
 }
 
 .portfolio .container > div > div {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 
 .portfolio img{
@@ -179,6 +194,10 @@ h6 {
 .portfolio h5 {
   padding: 5px 0;
   margin: 0;
+}
+
+.about {
+  padding-top: 3.5em;
 }
 
 .about > div > div {

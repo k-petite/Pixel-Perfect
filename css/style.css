@@ -123,12 +123,6 @@ h4 {
   font-style: italic;
 }
 
-h4 {
-  font-style: italic;
-}
-
-
-
 h6 {
   font-size: .7em;
   line-height: 1.7em;
@@ -140,6 +134,7 @@ h6 {
 
 .servicesList div{
   margin: 3em 0;
+  padding: 10px;
 }
 
 .servicesList div div {
@@ -151,9 +146,21 @@ h6 {
 }
 
 .servicesList img{
-  margin: 0.7em auto;
+  margin: 0.1em auto;
   max-width: 100%;
-  height: 55%;
+  /*height: 55%;*/
+}
+
+#lock-logo {
+  height: 90%;
+}
+
+.servicesList h5{
+  margin: 1.5em 0 0;
+}
+
+.servicesList h6{
+  margin: 0;
 }
 
 .portfolio {
@@ -258,7 +265,11 @@ h6 {
   background-color: #f7f7f7;
 }
 
-.black-circle {
+.black-circle > div {
+  padding-bottom: 3em;
+}
+
+.black-circle > div > div{
   background-color: black;
   border-radius: 50%;
   margin: 0 auto;
@@ -278,6 +289,36 @@ h6 {
 
 .team .container > div {
   margin: 2em 0;
+}
+
+.black-circle i{
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 50%;
+  color: black;
+}
+
+.black-circle img{
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+}
+
+#g-plus{
+  max-width: 30px;
+  max-height: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  color: black;
+  padding: 4px;
+  /*height: 25px;*/
+  /*border: 2px solid black;
+  padding: 2px;
+  border-radius: 50%;
+  color: black;
+  /*border: 1px solid red;*/*/
 }
 
 .logos {
@@ -504,4 +545,41 @@ footer h4 {
   #story h5{
     width: 75px;
   }
+
+  .black-circle {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .black-circle h4,
+  .team h4:last-child{
+    font-style: normal;
+    font-size: .7em;
+  }
+
+
+
+/*
+  .fa .fa-facebook-f {
+    font-size:50px;
+  }*/
+
+  .logos {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+  }
+
+  .logos img {
+    width: 80%;
+    /*margin: .2em auto .5em;*/
+    padding: 5px;
+  }
+
+  .logos div {
+    vertical-align: bottom;
+  }
+
 }

@@ -41,7 +41,8 @@ a:visited {
 
 header {
   background: linear-gradient(to right,rgba(0,0,0,0.9), rgba(0,0,0,0.5), rgba(0,0,0,0.9)),
-  url("../images/container_11.png") repeat center, black;
+  url("../images/container_11.png") no-repeat center fixed;
+  background-size: cover;
   color: white;
   margin: 0;
   /*padding-bottom: .5em;*/

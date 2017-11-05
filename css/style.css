@@ -620,3 +620,7 @@ footer i {
     width: 33%;
   }
 }
+
+@media (min-width: 1024px) {
+  
+}

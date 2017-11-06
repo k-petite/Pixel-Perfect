@@ -56,8 +56,7 @@ header {
 .nav-links {
   display: flex;
   flex-direction: column;
-  font-weight: 500;
-  letter-spacing: .1em;
+  font-weight: bold;
   font-size: .9em;
 }
 
@@ -348,7 +347,7 @@ form{
 }
 
 form > div {
-  margin: 0 1em 2em;
+  margin-bottom: 2em;
 }
 
 .contacts h4 {
@@ -389,7 +388,7 @@ textarea::-webkit-input-placeholder{
 
 button {
   height: 3em;
-  padding: 10px 30px;
+  width: 60%;
   margin: 0 auto;
   background-color: #fed036;
   border-style: none;
@@ -656,15 +655,25 @@ footer i {
 
 @media (min-width: 1024px) {
 
+<<<<<<< HEAD
   .container {
     width: 80%;
+=======
+  header {
+    background:
+    linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../images/container_11.png") repeat center, black;
+    color: white;
+    margin: 0;
+    /*padding-bottom: .5em;*/
+>>>>>>> parent of 25791cf... Front view screen spaces were partially adjusted
   }
 
   .navigation {
     flex-direction: row;
-    align-items: center;
   }
 
+<<<<<<< HEAD
 
   .welcome > div {
     margin-top: 5em;
@@ -682,4 +691,9 @@ footer i {
     letter-spacing: 2px;
   }
 
+=======
+  .navigation img{
+    max-height: 30px;
+  }
+>>>>>>> parent of 25791cf... Front view screen spaces were partially adjusted
 }

@@ -655,42 +655,17 @@ footer i {
 
 @media (min-width: 1024px) {
 
-<<<<<<< HEAD
   .container {
     width: 80%;
-=======
-  header {
-    background:
-    linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url("../images/container_11.png") repeat center, black;
-    color: white;
-    margin: 0;
-    /*padding-bottom: .5em;*/
->>>>>>> parent of 25791cf... Front view screen spaces were partially adjusted
   }
 
   .navigation {
     flex-direction: row;
   }
 
-<<<<<<< HEAD
-
-  .welcome > div {
-    margin-top: 5em;
+  .navigation img{
+    max-height: 30px;
   }
-
-
-  .welcome > div h1 {
-    font-size: 4.3em;
-    letter-spacing: 2px;
-    margin: 0;
-  }
-
-  .welcome > div h2 {
-    font-size: 2em;
-    letter-spacing: 2px;
-  }
-
 =======
   .navigation img{
     max-height: 30px;

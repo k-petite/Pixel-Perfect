@@ -5,7 +5,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-body, html {
+/*body, html {
     position: absolute;
     width: 100%;
     height: auto;
@@ -14,7 +14,7 @@ body, html {
     top: 0;
     left: 0;
     min-height: 100%;
-}
+}*/
 
 /* =================================
                 Clearfix
@@ -59,24 +59,41 @@ a:visited {
 }*/
 
 header {
-  /*padding-top: .7em;*/
+  padding-top: .7em;
   color: white;
   /*margin: 0;*/
   /*min-height: 100vh;*/
 }
 
-.fixed-crossbrowser-background {
+#div_background{
+  display: inline-block;
   position: fixed;
+  top: 0px;
+  left: 0px;
   height: 100%;
   width: 100%;
-  top: 0;
-  left: 0;
+  right: 0%;
+  bottom: 0%;
+  z-index: -1;
+  background-color: #A0B4C8;
+}
+
+#div_background > div {
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: auto;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: center center;
+  background-size: cover;
   background-image: linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
   url("../images/container_11.png");
-  opacity: 1;
-  z-index: -1;
 }
 
 /*body > div:not(.fixed-crossbrowser-background)  */

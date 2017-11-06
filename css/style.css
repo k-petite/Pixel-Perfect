@@ -50,7 +50,7 @@ header {
   padding-top: .7em;
   background:
   linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-  url("../images/container_11.png") no-repeat center fixed;
+  url("../images/container_11.png") no-repeat center scroll;
   background-size: cover;
   color: white;
   margin: 0;

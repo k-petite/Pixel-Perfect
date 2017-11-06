@@ -5,6 +5,17 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body, html {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
 /* =================================
                 Clearfix
 ==================================== */
@@ -25,6 +36,7 @@
   padding-top: 2em;
   padding-bottom: 2em;
 }
+
 
 a {
   color: white;
@@ -47,16 +59,31 @@ a:visited {
 }*/
 
 header {
-  padding-top: .7em;
-  background:
-  linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-  url("../images/container_11.png") no-repeat center scroll;
-  background-size: cover;
+  /*padding-top: .7em;*/
   color: white;
-  margin: 0;
-  min-height: 100vh;
+  /*margin: 0;*/
+  /*min-height: 100vh;*/
 }
 
+.fixed-crossbrowser-background {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-image: linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("../images/container_11.png");
+  opacity: 1;
+  z-index: -1;
+}
+
+/*body > div:not(.fixed-crossbrowser-background)  */
+main,
+footer{
+  background-color: white;
+}
 
 .navigation {
   margin: 1em 0;
@@ -138,6 +165,7 @@ h6 {
   font-size: .7em;
   line-height: 1.7em;
 }
+
 
 .servicesList {
   margin: 3em auto;
@@ -413,10 +441,12 @@ footer h4 {
   font-family: 'Montserrat', sans-serif;
   color: black;
   font-weight: 300;
+  margin: 0;
 }
 
-footer > div{
-  margin-bottom: 2em;
+footer{
+  padding-bottom: 2em;
+  padding-top: 1em;
 }
 
 footer .g-plus {
@@ -525,6 +555,11 @@ footer i {
     justify-content: flex-end;
   }
 
+  .about-list > div:not(.v-line) {
+    z-index: 1;
+  }
+
+
   .about > div > div {
     margin: 2em 0;
   }
@@ -556,7 +591,7 @@ footer i {
     left: 50%;
     /*margin-left: -3px;*/
     top: 0;
-    z-index: -1;
+    z-index: 0;
   }
 
   .about-list > div:not(.v-line){

@@ -39,14 +39,23 @@ a:visited {
   color: white;
 }
 
-header {
+/*header {
   background: linear-gradient(to right,rgba(0,0,0,0.9), rgba(0,0,0,0.5), rgba(0,0,0,0.9)),
   url("../images/container_11.png") repeat center, black;
   color: white;
   margin: 0;
-  /*height: 100vh;*/
-  /*padding-bottom: .5em;*/
+}*/
+
+header {
+  padding-top: .7em;
+  background:
+  linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("../images/container_11.png") no-repeat center fixed;
+  background-size: cover;
+  color: white;
+  margin: 0;
 }
+
 
 .navigation {
   margin: 1em 0;
@@ -421,15 +430,6 @@ footer i {
 
 
 @media (min-width: 768px) {
-  header {
-    padding-top: .7em;
-    background:
-    linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url("../images/container_11.png") no-repeat center fixed;
-    background-size: cover;
-    color: white;
-    margin: 0;
-  }
 
   .nav-links {
     flex-direction: row;

@@ -715,6 +715,8 @@ footer i {
 <<<<<<< HEAD
   .container {
     width: 80%;
+    max-width: 1500px;
+  }
 =======
   header {
     background:

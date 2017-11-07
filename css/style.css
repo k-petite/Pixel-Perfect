@@ -47,6 +47,10 @@ a:hover {
   color: #fed036;
 }
 
+header h5 a:hover {
+  color: white;
+}
+
 a:visited {
   color: white;
 }

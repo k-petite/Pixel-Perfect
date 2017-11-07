@@ -712,12 +712,11 @@ footer i {
 
 @media (min-width: 1024px) {
 
-<<<<<<< HEAD
   .container {
     width: 80%;
     max-width: 1500px;
   }
-=======
+
   header {
     background:
     linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
@@ -725,14 +724,11 @@ footer i {
     color: white;
     margin: 0;
     /*padding-bottom: .5em;*/
->>>>>>> parent of 25791cf... Front view screen spaces were partially adjusted
   }
 
   .navigation {
     flex-direction: row;
   }
-
-<<<<<<< HEAD
 
   .welcome > div {
     margin-top: 5em;
@@ -750,9 +746,7 @@ footer i {
     letter-spacing: 2px;
   }
 
-=======
   .navigation img{
     max-height: 30px;
   }
->>>>>>> parent of 25791cf... Front view screen spaces were partially adjusted
 }

@@ -719,8 +719,7 @@ footer i {
 
   header {
     background:
-    linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url("../images/container_11.png") repeat center, black;
+    min-height: 100vh;
     color: white;
     margin: 0;
     /*padding-bottom: .5em;*/

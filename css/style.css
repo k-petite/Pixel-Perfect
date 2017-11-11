@@ -66,7 +66,7 @@ header {
   padding-top: .7em;
   color: white;
   /*margin: 0;*/
-  min-height: 100vh;
+  /*min-height: 100vh;*/
 }
 
 #div_background{
@@ -106,13 +106,16 @@ footer{
   background-color: white;
 }
 
+.navigation {
+  margin: 1em 0;
+}
+
 .navigation,
 .nav-links {
   display: flex;
   flex-direction: column;
-  font-weight: 500;
-  font-size: .915em;
-  letter-spacing: .6px;
+  font-weight: bold;
+  font-size: .9em;
 }
 
 .nav-links * {
@@ -120,8 +123,8 @@ footer{
 }
 
 .navigation img {
-  width: 83px;
-  margin: .6em auto .5em;
+  width: 70px;
+  margin: .2em auto .5em;
 }
 
 .container {
@@ -130,8 +133,7 @@ footer{
 }
 
 .welcome {
-  margin: 2.5em auto 0;
-  padding-bottom: 20px;
+  margin: 2.5em auto;
 }
 
 .welcome h1{
@@ -481,26 +483,18 @@ footer i {
 
 @media (min-width: 768px) {
 
-  header {
-    padding-bottom: 2em;
-  }
-
-  .navigation {
-    margin: 1.63em 0;
-  }
-
   .nav-links {
     flex-direction: row;
-    justify-content: center;
-    margin: 1em 0em;
+    justify-content: space-around;
+    margin: 1em 15em;
   }
 
   .nav-links a{
-    padding: 5px 1.58em;
+    padding: 5px 10px;
   }
 
   .welcome div *{
-    margin: .8em auto;
+    margin: 1em auto;
   }
 
   .navigation img{
@@ -508,7 +502,7 @@ footer i {
   }
 
   .welcome > div{
-    margin: 2em auto 2.3em;
+    margin: 2em auto 2em;
   }
 
   .welcome > div h1 {
@@ -525,8 +519,7 @@ footer i {
   .welcome a {
     font-size: 1.2em;
     font-weight: 500;
-    padding: 24px 55px;
-    letter-spacing: 1px;
+    padding: 20px 55px
   }
 
   .servicesList {
@@ -719,62 +712,41 @@ footer i {
 
 @media (min-width: 1024px) {
 
-  .nav-links {
-    width: 47.35em;
-    justify-content: flex-start;
-    /* margin-left: 1em; */
-  }
-
-  .nav-links a{
-    padding: 5px 19px;
-  }
-
-
   .container {
     width: 80%;
-    max-width: 1500px;
+    max-width: 1000px;
   }
 
   header {
-    /*background:
+    background:
     linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url("../images/container_11.png") repeat center, black;*/
+    url("../images/container_11.png") repeat center, black;
     color: white;
     margin: 0;
     /*padding-bottom: .5em;*/
   }
 
-  header .container{
-    width: 85%;
-  }
-
   .navigation {
     flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .mainlogo{
-    margin-left: 9.5em;
   }
 
   .welcome > div {
-    margin-top: 8.9em;
+    margin-top: 5em;
   }
 
 
   .welcome > div h1 {
-    font-size: 4.55em;
-    letter-spacing: -1.5px;
+    font-size: 4.3em;
+    letter-spacing: 2px;
     margin: 0;
   }
 
   .welcome > div h2 {
-    font-size: 2.6em;
-    letter-spacing: .2px;
-    /* font-weight: 500; */
+    font-size: 2em;
+    letter-spacing: 2px;
   }
-
 
   .navigation img{
-    max-height: 28px;
+    max-height: 30px;
   }
+}

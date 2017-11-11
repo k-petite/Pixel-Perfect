@@ -483,6 +483,10 @@ footer i {
 
 @media (min-width: 768px) {
 
+  header {
+    min-height: 100vh;
+  }
+
   .nav-links {
     flex-direction: row;
     justify-content: space-around;
@@ -719,7 +723,6 @@ footer i {
 
   header {
     background:
-    min-height: 100vh;
     color: white;
     margin: 0;
     /*padding-bottom: .5em;*/

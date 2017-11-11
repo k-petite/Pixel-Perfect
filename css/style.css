@@ -107,7 +107,7 @@ footer{
 }
 
 .navigation {
-  margin: 1em 0;
+  margin: 1.63em 0;
 }
 
 .navigation,
@@ -116,6 +116,7 @@ footer{
   flex-direction: column;
   font-weight: bold;
   font-size: .9em;
+  letter-spacing: .3px;
 }
 
 .nav-links * {
@@ -485,12 +486,12 @@ footer i {
 
   .nav-links {
     flex-direction: row;
-    justify-content: space-around;
-    margin: 1em 15em;
+    justify-content: flex-end;
+    margin: 1em 8.8em 1em 0em;
   }
 
   .nav-links a{
-    padding: 5px 10px;
+    padding: 5px 1.58em;
   }
 
   .welcome div *{

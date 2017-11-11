@@ -106,10 +106,6 @@ footer{
   background-color: white;
 }
 
-.navigation {
-  margin: 1.63em 0;
-}
-
 .navigation,
 .nav-links {
   display: flex;
@@ -487,6 +483,10 @@ footer i {
 
   header {
     padding-bottom: 2em;
+  }
+
+  .navigation {
+    margin: 1.63em 0;
   }
 
   .nav-links {

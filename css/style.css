@@ -66,7 +66,7 @@ header {
   padding-top: .7em;
   color: white;
   /*margin: 0;*/
-  /*min-height: 100vh;*/
+  min-height: 100vh;
 }
 
 #div_background{
@@ -107,15 +107,16 @@ footer{
 }
 
 .navigation {
-  margin: 1em 0;
+  margin: 1.63em 0;
 }
 
 .navigation,
 .nav-links {
   display: flex;
   flex-direction: column;
-  font-weight: bold;
-  font-size: .9em;
+  font-weight: 500;
+  font-size: .915em;
+  letter-spacing: .6px;
 }
 
 .nav-links * {
@@ -123,8 +124,8 @@ footer{
 }
 
 .navigation img {
-  width: 70px;
-  margin: .2em auto .5em;
+  width: 83px;
+  margin: .6em auto .5em;
 }
 
 .container {
@@ -133,7 +134,7 @@ footer{
 }
 
 .welcome {
-  margin: 2.5em auto;
+  margin: 2.5em auto 0;
 }
 
 .welcome h1{
@@ -483,18 +484,22 @@ footer i {
 
 @media (min-width: 768px) {
 
+  header {
+    padding-bottom: 2em;
+  }
+
   .nav-links {
     flex-direction: row;
-    justify-content: space-around;
-    margin: 1em 15em;
+    justify-content: flex-start;
+    margin: 1em 0em;
   }
 
   .nav-links a{
-    padding: 5px 10px;
+    padding: 5px 1.58em;
   }
 
   .welcome div *{
-    margin: 1em auto;
+    margin: .8em auto;
   }
 
   .navigation img{
@@ -502,7 +507,7 @@ footer i {
   }
 
   .welcome > div{
-    margin: 2em auto 2em;
+    margin: 2em auto 2.3em;
   }
 
   .welcome > div h1 {
@@ -519,7 +524,8 @@ footer i {
   .welcome a {
     font-size: 1.2em;
     font-weight: 500;
-    padding: 20px 55px
+    padding: 24px 55px;
+    letter-spacing: 1px;
   }
 
   .servicesList {
@@ -712,6 +718,16 @@ footer i {
 
 @media (min-width: 1024px) {
 
+  .nav-links {
+    width: 47.35em;
+    /* margin-left: 1em; */
+  }
+
+  .nav-links a{
+    padding: 5px 19px;
+  }
+
+
   .container {
     width: 80%;
     max-width: 1000px;
@@ -726,27 +742,37 @@ footer i {
     /*padding-bottom: .5em;*/
   }
 
+  header .container{
+    width: 85%;
+  }
+
   .navigation {
     flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .mainlogo{
+    margin-left: 9.5em;
   }
 
   .welcome > div {
-    margin-top: 5em;
+    margin-top: 8.9em;
   }
 
 
   .welcome > div h1 {
-    font-size: 4.3em;
-    letter-spacing: 2px;
+    font-size: 4.55em;
+    letter-spacing: -1.5px;
     margin: 0;
   }
 
   .welcome > div h2 {
-    font-size: 2em;
-    letter-spacing: 2px;
+    font-size: 2.6em;
+    letter-spacing: .2px;
+    /* font-weight: 500; */
   }
 
+
   .navigation img{
-    max-height: 30px;
+    max-height: 28px;
   }
-}

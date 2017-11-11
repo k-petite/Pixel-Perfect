@@ -66,7 +66,6 @@ header {
   padding-top: .7em;
   color: white;
   /*margin: 0;*/
-  height: 100vh;
 }
 
 #div_background{
@@ -133,7 +132,7 @@ footer{
 }
 
 .welcome {
-  margin: 2.5em auto 0;
+  margin: 2.5em auto;
 }
 
 .welcome h1{
@@ -723,6 +722,8 @@ footer i {
     url("../images/container_11.png") repeat center, black;*/
     color: white;
     margin: 0;
+    min-height: 100vh;
+
     /*padding-bottom: .5em;*/
   }
 

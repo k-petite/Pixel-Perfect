@@ -734,9 +734,9 @@ footer i {
   }
 
   header {
-    background:
+    /*background:
     linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url("../images/container_11.png") repeat center, black;
+    url("../images/container_11.png") repeat center, black;*/
     color: white;
     margin: 0;
     /*padding-bottom: .5em;*/
